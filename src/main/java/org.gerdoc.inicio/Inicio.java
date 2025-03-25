@@ -22,7 +22,6 @@ public class Inicio {
         Historiales historiales = null;
         Ejecutable ejecutable = null;
         historiales = Historia.getInstance();
-        System.out.println("Hola mundo soyr Rossell y esta es mi segunda version");
         while (flag) {
             Menu.principal2();
             Menu.seleccionaOpcion();
@@ -43,7 +42,7 @@ public class Inicio {
                 ejecutable.run();
             }
         }
-
+        System.out.println("HOLA MUNDO ESTE ES CAMBIO A MI CÓDIGO");
 
     }
 }
